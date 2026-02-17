@@ -39,8 +39,8 @@ const Home = () => {
             role: 'Promotion Team',
             count: 3,
             members: [
-                { name: 'Sahaya Hervin A', year: 'III', department: 'CSE' },
-                { name: 'Krishna Kumar S', year: 'III', department: 'CSE' },
+                { name: 'Sagaya Hervin A', year: 'III', department: 'CSE' },
+                { name: 'KrishnaKumar S', year: 'III', department: 'CSE' },
                 { name: 'Prasin I', year: 'III', department: 'CSE' }
             ]
         },
