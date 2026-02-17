@@ -32,7 +32,7 @@ const Home = () => {
             members: [
                 { name: 'Meena R', year: 'III-yr', department: 'CSE' },
                 { name: 'Vijayalakshmi R', year: 'III-yr', department: 'CSE' },
-                
+
             ]
         },
         {
@@ -80,7 +80,7 @@ const Home = () => {
                         Join the ultimate inter-college Hackathon featuring 70 problem statements across 7 cutting-edge domains
                     </p>
                     <p className="text-xs md:text-xl text-gray-400 font-orbitron mt-2 mb-4 tracking-wider uppercase max-w-5xl mx-auto leading-relaxed">
-                        Organized by the <span className="text-[var(--color-neon-blue)] font-bold">Department of Computer Science Engineering</span> and <span className="text-[var(--color-neon-blue)] font-bold">CSE (AI & ML)</span>
+                        Organized by the <span className="text-[var(--color-neon-blue)] font-bold">Department of CSE</span> and <span className="text-[var(--color-neon-blue)] font-bold whitespace-nowrap">CSE (AI&ML)</span>
                     </p>
 
                     {/* Scroll Indicator */}
@@ -116,14 +116,14 @@ const Home = () => {
                             <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Principal , SMCET</p>
                         </div>
                         <div className="text-center group">
-                             <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.A.Thamarai Muthumani</p>
+                            <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.A.Thamarai Muthumani</p>
                             <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">HOD of CSE and CSE (Ai&ML)</p>
-                           
+
                         </div>
                         <div className="text-center group">
                             <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.L.Devi</p>
                             <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Program Coordinator</p>
-                            
+
                         </div>
                     </div>
 
@@ -243,7 +243,7 @@ const Home = () => {
 
                     {/* Rules & Regulations Card */}
                     <div className="card p-8 mt-8 text-left">
-                        <h3 className="text-2xl font-orbitron font-bold text-[var(--color-neon-blue)] mb-6 flex items-center gap-3">
+                        <h3 className="text-lg md:text-2xl font-orbitron font-bold text-[var(--color-neon-blue)] mb-6 flex items-center gap-3">
                             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                             </svg>
@@ -270,18 +270,18 @@ const Home = () => {
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
                                 <span>Malpractice leads to <strong className="text-white">disqualification</strong>.</span>
                             </li>
-                              <li className="flex items-start gap-3">
+                            <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
                                 <span>PPT time limit : <strong className="text-white">10 minutes</strong>.</span>
                             </li>
-                             <li className="flex items-start gap-3">
+                            <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
                                 <span>Official template for the presentation must be <strong className="text-white">Downloaded from the website</strong>.</span>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </section> 
+            </section>
 
 
 

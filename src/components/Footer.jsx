@@ -10,7 +10,7 @@ const Footer = () => {
                         Inter College Hackathon
                     </p>
                     <p className="text-gray-500 font-poppins text-sm">
-                        Organized by Computer Science & Engineering & CSE (AI&ML)
+                        Organized by CSE & <span className="whitespace-nowrap">CSE (AI&ML)</span>
                     </p>
                     <p className="text-gray-500 font-poppins text-sm">
                         Contact: <a href="mailto:ignite2k26@example.com" className="text-[var(--color-neon-blue)] hover:underline">
