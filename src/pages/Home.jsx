@@ -13,25 +13,25 @@ const Home = () => {
             role: 'Event Lead',
             count: 2,
             members: [
-                { name: 'Munish Kumar R', year: 'III', department: 'CSE' },
-                { name: 'Sanofer Nisha S', year: 'III', department: 'CSE AI & ML' }
+                { name: 'Munish Kumar R', year: 'III-yr', department: 'CSE' },
+                { name: 'Sanofer Nisha S', year: 'III-yr', department: 'CSE (AI & ML)' }
             ]
         },
         {
             role: 'Web Developers',
             count: 3,
             members: [
-                { name: 'Deepan S', year: 'III', department: 'CSE AI & ML' },
-                { name: 'Rajesh R', year: 'III', department: 'CSE AI & ML' },
-                { name: 'Vignesh K', year: 'III', department: 'CSE AI & ML' }
+                { name: 'Deepan S', year: 'III-yr', department: 'CSE (AI & ML)' },
+                { name: 'Rajesh R', year: 'III-yr', department: 'CSE (AI & ML)' },
+                { name: 'Vignesh K', year: 'III-yr', department: 'CSE (AI & ML)' }
             ]
         },
         {
             role: 'Designers',
             count: 2,
             members: [
-                { name: 'Meena R', year: 'III', department: 'CSE' },
-                { name: 'Vijayalakshmi R', year: 'III', department: 'CSE' },
+                { name: 'Meena R', year: 'III-yr', department: 'CSE' },
+                { name: 'Vijayalakshmi R', year: 'III-yr', department: 'CSE' },
                 
             ]
         },
@@ -39,18 +39,18 @@ const Home = () => {
             role: 'Promotion Team',
             count: 3,
             members: [
-                { name: 'Sagaya Hervin A', year: 'III', department: 'CSE' },
-                { name: 'KrishnaKumar S', year: 'III', department: 'CSE' },
-                { name: 'Prasin I', year: 'III', department: 'CSE' }
+                { name: 'Sagaya Hervin A', year: 'III-yr', department: 'CSE' },
+                { name: 'KrishnaKumar S', year: 'III-yr', department: 'CSE' },
+                { name: 'Prasin I', year: 'III-yr', department: 'CSE' }
             ]
         },
         {
             role: 'Information & Documentation',
             count: 3,
             members: [
-                { name: 'Vinotha G', year: 'III', department: 'CSE' },
-                { name: 'Shakthi M', year: 'III', department: 'CSE AI & ML' },
-                { name: 'Keerthika C', year: 'III', department: 'CSE' }
+                { name: 'Vinotha G', year: 'III-yr', department: 'CSE' },
+                { name: 'Shakthi M', year: 'III-yr', department: 'CSE (AI & ML)' },
+                { name: 'Keerthika C', year: 'III-yr', department: 'CSE' }
             ]
         },
     ];
@@ -77,10 +77,10 @@ const Home = () => {
                         Innovate. Integrate. Elevate.
                     </p>
                     <p className="text-sm md:text-2xl text-gray-300 font-poppins max-w-3xl mx-auto mb-4 md:mb-8">
-                        Join the ultimate inter-college hackathon featuring 70 problem statements across 7 cutting-edge domains
+                        Join the ultimate inter-college Hackathon featuring 70 problem statements across 7 cutting-edge domains
                     </p>
                     <p className="text-xs md:text-xl text-gray-400 font-orbitron mt-2 mb-4 tracking-wider uppercase max-w-5xl mx-auto leading-relaxed">
-                        Organized by the <span className="text-[var(--color-neon-blue)] font-bold">Department of Computer Science Engineering</span> and <span className="text-[var(--color-neon-blue)] font-bold">Artificial Intelligence and Machine Learning</span>
+                        Organized by the <span className="text-[var(--color-neon-blue)] font-bold">Department of Computer Science Engineering</span> and <span className="text-[var(--color-neon-blue)] font-bold">CSE (AI & ML)</span>
                     </p>
 
                     {/* Scroll Indicator */}
@@ -112,16 +112,18 @@ const Home = () => {
                     {/* Leadership Names */}
                     <div className="flex flex-wrap justify-center gap-12 mb-16 px-4">
                         <div className="text-center group">
-                            <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Principal</p>
                             <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Dr.S.Karpagam</p>
+                            <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Principal , SMCET</p>
                         </div>
                         <div className="text-center group">
-                            <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Department HOD</p>
-                            <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.A.Thamarai Muthumani</p>
+                             <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.A.Thamarai Muthumani</p>
+                            <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">HOD of CSE and CSE (Ai&ML)</p>
+                           
                         </div>
                         <div className="text-center group">
-                            <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Coordinator</p>
-                            <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">L Devi</p>
+                            <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.L.Devi</p>
+                            <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Program Coordinator</p>
+                            
                         </div>
                     </div>
 
@@ -250,27 +252,31 @@ const Home = () => {
                         <ul className="space-y-4 font-poppins text-gray-300">
                             <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
-                                <span>Each team must have a minimum of <strong className="text-white"> 2 members</strong> and a maximum of<strong className="text-white"> 4 members</strong>.</span>
+                                <span>Team must have <strong className="text-white"> 2-4 members</strong>.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
-                                <span>If a team presents a <strong className="text-white">prototype</strong>, they will be awarded extra marks.</span>
+                                <span><strong className="text-white">Prototype</strong> submission carry extra marks.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
-                                <span>At least <strong className="text-white">one staff member</strong> from each department must participate in the staff section.</span>
+                                <span>At least <strong className="text-white">one staff member</strong> from each department must participate in the staff category.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
-                                <span>The decision of the committee members and judges will be <strong className="text-white">final</strong>.</span>
+                                <span>Judges decision is <strong className="text-white">final</strong>.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
-                                <span>Any team found cheating will be <strong className="text-white">disqualified</strong>.</span>
+                                <span>Malpractice leads to <strong className="text-white">disqualification</strong>.</span>
                             </li>
                               <li className="flex items-start gap-3">
                                 <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
-                                <span>PPT Presentation maximum <strong className="text-white">10 minutes</strong>.</span>
+                                <span>PPT time limit : <strong className="text-white">10 minutes</strong>.</span>
+                            </li>
+                             <li className="flex items-start gap-3">
+                                <span className="text-[var(--color-neon-purple)] mt-1.5">•</span>
+                                <span>Official template for the presentation must be <strong className="text-white">Downloaded from the website</strong>.</span>
                             </li>
                         </ul>
                     </div>

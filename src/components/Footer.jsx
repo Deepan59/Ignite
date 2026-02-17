@@ -10,11 +10,11 @@ const Footer = () => {
                         Inter College Hackathon
                     </p>
                     <p className="text-gray-500 font-poppins text-sm">
-                        Organized by III year CSE & III year CSE AI&ML
+                        Organized by Computer Science & Engineering & CSE (AI&ML)
                     </p>
                     <p className="text-gray-500 font-poppins text-sm">
                         Contact: <a href="mailto:ignite2k26@example.com" className="text-[var(--color-neon-blue)] hover:underline">
-                            Munish Kumar : +91 9361224959   |  Sanofer Nisha : +91 8667352613
+                            R.Munish Kumar : +91 9361224959   |  S.Sanofer Nisha : +91 8667352613
                         </a>
                     </p>
                     <div className="pt-2">
