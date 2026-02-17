@@ -1,0 +1,706 @@
+{
+    "domains": [
+        {
+            "id": 1,
+            "name": "AGRISPHERE",
+            "slug": "agrisphere",
+            "problems": [
+                {
+                    "id": "IG26AG01",
+                    "title": "Smart Food Expiry Management",
+                    "category": "Software + Hardware",
+                    "description": "Homes, restaurants, and retail stores frequently discard edible items because tracking inventory and shelf life manually is difficult. Static expiry labels do not always reflect real storage conditions, resulting in unnecessary waste and financial loss.",
+                    "background": "Design a system that monitors stored products and predicts approaching expiry using purchase dates, storage environment, or consumption patterns. The solution should alert users in advance and suggest actions such as priority usage or redistribution.",
+                    "expectedOutcome": "Automated tracking of food items.Notifications before spoilage.Insights that encourage smarter consumption.Measurable reduction in avoidable waste."
+                },
+                {
+                    "id": "IG26AG02",
+                    "title": "Personalized Nutrition Planner",
+                    "category": "Software",
+                    "description": "People often struggle to select meals that align with their daily routines, preferences, and long-term wellness aims. Generic diet charts rarely consider affordability or local availability.",
+                    "background": "Create an intelligent planner that recommends meals tailored to individual characteristics such as age group, activity level, and food choices. The system should also consider budget and ingredient access.",
+                    "expectedOutcome": "Customized meal suggestions. Balanced nutritional guidance. Practical shopping or preparation support. Improved adherence to healthy habits."
+                },
+                {
+                    "id": "IG26AG03",
+                    "title": "Food Quality Detection System",
+                    "category": "Hardware + Software",
+                    "description": "Consumers and vendors may find it hard to judge freshness or safety accurately. Mistakes can lead either to health risks or premature disposal of usable food.",
+                    "background": "Build a solution capable of evaluating quality through visual analysis, sensing, or other measurable indicators. The platform should present easy-to-understand results and recommended next steps.",
+                    "expectedOutcome": "Reliable identification of freshness levels or anomalies. Quick assessment process. Increased confidence in food safety. Reduced wastage."
+                },
+                {
+                    "id": "IG26AG04",
+                    "title": "Efficient Food Donation & Distribution",
+                    "category": "Software",
+                    "description": "Caterers, supermarkets, and events often have surplus items, yet coordination gaps prevent timely delivery to people who need them.",
+                    "background": "Develop a platform that enables rapid matching between donors and receivers while supporting logistics, timing, and safety considerations.",
+                    "expectedOutcome": "Seamless communication between stakeholders. Faster pickups and deliveries. Lower disposal rates. Greater social impact."
+                },
+                {
+                    "id": "IG26AG05",
+                    "title": "Transparent Food Supply Chain",
+                    "category": "Software",
+                    "description": "Buyers increasingly want to know where their food comes from and how it was handled. Limited visibility reduces trust and complicates quality assurance.",
+                    "background": "Create a traceability framework that records and presents product journeys from origin to consumption. The system should allow verification of authenticity and handling conditions.",
+                    "expectedOutcome": "Clear product history for users. Improved accountability across participants. Stronger safety assurance. Enhanced consumer trust."
+                },
+                {
+                    "id": "IG26AG06",
+                    "title": "Smart Crop Health Monitoring",
+                    "category": "Hardware + Software",
+                    "description": "Crop losses due to diseases, pests, and nutrient deficiencies significantly reduce farmer income and food availability. Many issues are noticed only after visible damage, when recovery becomes costly or impossible. Early identification supported by digital tools can enable faster and more accurate intervention.",
+                    "background": "Create a system that can detect early signs of crop stress, infection, or pest presence using images, sensor readings, or other field data. The solution should analyze the information and provide clear, actionable guidance to farmers on treatment and preventive steps.",
+                    "expectedOutcome": "Detection or classification of crop health conditions. Timely alerts with recommended actions. Simple interface accessible to farmers. Potential to reduce yield loss and input costs."
+                },
+                {
+                    "id": "IG26AG07",
+                    "title": "Precision Irrigation Management",
+                    "category": "Hardware + Software",
+                    "description": "Water scarcity and inefficient irrigation practices lead to wastage of resources and uneven crop growth. Farmers often rely on fixed schedules instead of real-time crop and soil needs. Intelligent planning can improve productivity while conserving water.",
+                    "background": "Develop an automated or advisory system that calculates when irrigation should occur and how much water is required based on soil conditions, crop stage, and weather factors. The platform should support informed, timely decisions.",
+                    "expectedOutcome": "Data-driven irrigation recommendations or automation. Reduced water usage. Improved crop yield and uniform growth. Easy monitoring via dashboard or mobile app."
+                },
+                {
+                    "id": "IG26AG08",
+                    "title": "Market Price & Demand Forecasting for Farmers",
+                    "category": "Software",
+                    "description": "Uncertain market fluctuations often force farmers to sell produce at low prices. Limited access to demand trends and price intelligence weakens bargaining power and planning.",
+                    "background": "Build a platform that aggregates relevant market information and predicts future price movements or demand. The system should guide farmers on the best time and place to sell.",
+                    "expectedOutcome": "Reliable price trend visualization. Forecast or recommendation engine. Support for smarter selling decisions. Increased income stability."
+                },
+                {
+                    "id": "IG26AG09",
+                    "title": "Surplus Food Redistribution Network",
+                    "category": "Software",
+                    "description": "Large amounts of safe, edible food are discarded while many communities face shortages. Lack of coordination, logistics, and timely communication prevents effective redistribution.",
+                    "background": "Design a system that links donors who have excess food with receivers who need it. The solution should ensure quick matching, safe handling, and efficient transportation.",
+                    "expectedOutcome": "Real-time matching between donors and recipients. Tracking and coordination features. Reduction in food waste. Greater community support."
+                },
+                {
+                    "id": "IG26AG10",
+                    "title": "Soil Nutrient & Fertilizer Advisory System",
+                    "category": "Software + Hardware",
+                    "description": "Improper fertilizer usage increases costs and harms soil health. Farmers may lack precise knowledge about nutrient status and suitable alternatives for their crops.",
+                    "background": "Develop a decision-support tool that interprets soil information and recommends the right fertilizer type, quantity, or eco-friendly options tailored to specific crop requirements.",
+                    "expectedOutcome": "Accurate nutrient analysis and guidance. Optimized fertilizer usage. Improved soil sustainability. Better productivity."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "AIXPLORE",
+            "slug": "aixplore",
+            "problems": [
+                {
+                    "id": "IG26AI01",
+                    "title": "AI-Based Early Disease Prediction System",
+                    "category": "Software",
+                    "description": "Chronic diseases such as diabetes, cardiovascular disorders, and kidney diseases are often detected at advanced stages, especially in rural and semi-urban areas due to limited access to diagnostic facilities. Early prediction can significantly reduce mortality and healthcare costs.",
+                    "background": "Build an AI-based predictive system that analyzes basic health parameters such as age, blood pressure, glucose level, BMI, and lifestyle indicators to identify early-stage disease risks.",
+                    "expectedOutcome": "Machine learning-based risk prediction model. Risk scoring dashboard for doctors. Early intervention alert mechanism. Health data visualization module."
+                },
+                {
+                    "id": "IG26AI02",
+                    "title": "AI-Assisted Medical Image Diagnosis System",
+                    "category": "Software",
+                    "description": "Shortage of radiologists leads to delays in diagnosing diseases from X-rays and CT scans, particularly in rural healthcare centers.",
+                    "background": "Develop a deep learning-based system capable of detecting abnormalities such as fractures, pneumonia, and tuberculosis from medical images.",
+                    "expectedOutcome": "Image classification and segmentation model. Highlighted abnormal regions in images. AI-assisted diagnostic report generation. Confidence score display."
+                },
+                {
+                    "id": "IG26AI03",
+                    "title": "AI-Powered Ambulance Routing & Emergency Prediction System",
+                    "category": "Software",
+                    "description": "Emergency response time is critical in saving lives. Traffic congestion and lack of predictive planning delay ambulance services.",
+                    "background": "Develop an AI-based system that predicts emergency hotspots and optimizes ambulance routing using live traffic and historical emergency data.",
+                    "expectedOutcome": "Emergency hotspot prediction model. Route optimization algorithm. Real-time ambulance tracking dashboard. Alert system for nearest hospitals."
+                },
+                {
+                    "id": "IG26AI04",
+                    "title": "Smart ICU Monitoring & Predictive Alert System",
+                    "category": "Software",
+                    "description": "Continuous ICU monitoring requires significant manpower and delayed reaction to sudden health deterioration can be fatal.",
+                    "background": "Develop an AI-based system that analyzes real-time patient vitals such as heart rate, oxygen levels, and blood pressure to predict critical events in advance.",
+                    "expectedOutcome": "Time-series prediction model. Real-time alert notification system. ICU patient monitoring dashboard. Critical risk scoring mechanism."
+                },
+                {
+                    "id": "IG26AI05",
+                    "title": "AI-Based Skin Disease Detection Application",
+                    "category": "Software",
+                    "description": "Limited access to dermatologists in rural areas results in delayed diagnosis of skin diseases.",
+                    "background": "Develop a computer vision-based mobile application capable of identifying common skin diseases using captured images.",
+                    "expectedOutcome": "Image recognition model. Disease prediction with confidence score. Referral and treatment guidance system. Mobile-friendly interface."
+                },
+                {
+                    "id": "IG26AI06",
+                    "title": "Smart AI Triage System for Government Hospitals",
+                    "category": "Software",
+                    "description": "Government hospitals face overcrowding and inefficient patient prioritization systems.",
+                    "background": "Develop an AI-driven triage system that evaluates patient symptoms and assigns emergency severity levels to optimize patient flow.",
+                    "expectedOutcome": "Symptom classification model. Severity scoring system. Patient prioritization dashboard. Queue optimization mechanism."
+                },
+                {
+                    "id": "IG26AI07",
+                    "title": "AI-Powered Medical Report Simplification System",
+                    "category": "Software",
+                    "description": "Patients often struggle to understand complex medical reports filled with technical terminology.",
+                    "background": "Develop an NLP-based system that translates laboratory reports into simplified explanations in regional languages.",
+                    "expectedOutcome": "Report upload and analysis interface. Simplified summary generation. Highlighted abnormal values. Multi-language support."
+                },
+                {
+                    "id": "IG26AI08",
+                    "title": "AI-Driven Drug Interaction & Prescription Safety Checker",
+                    "category": "Software",
+                    "description": "Multiple medication prescriptions may lead to harmful drug interactions and adverse reactions.",
+                    "background": "Develop an AI-based assistant that checks prescriptions for potential drug interactions and alerts healthcare professionals about risks.",
+                    "expectedOutcome": "Drug interaction database integration. Risk detection engine. Prescription safety dashboard. Alert notification mechanism."
+                },
+                {
+                    "id": "IG26AI09",
+                    "title": "AI-Based Mental Health Risk Detection System",
+                    "category": "Software",
+                    "description": "Early indicators of depression and anxiety often go unnoticed due to lack of screening and awareness.",
+                    "background": "Develop an AI-based system that analyzes text input, voice patterns, or questionnaire responses to detect potential mental health risks.",
+                    "expectedOutcome": "Sentiment and emotion detection model. Risk-level scoring system. Crisis alert and helpline integration. User mental wellness dashboard."
+                },
+                {
+                    "id": "IG26AI10",
+                    "title": "Personalized AI Diet & Lifestyle Recommendation System",
+                    "category": "Software",
+                    "description": "Rising lifestyle diseases highlight the need for preventive and personalized healthcare solutions.",
+                    "background": "Develop an AI-based recommendation system that suggests personalized diet and exercise plans based on medical history and health metrics.",
+                    "expectedOutcome": "Health data analysis engine. Personalized recommendation module. Progress tracking dashboard. Adaptive learning mechanism."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "EDUNEXTGEN",
+            "slug": "edunextgen",
+            "problems": [
+                {
+                    "id": "IG26ED01",
+                    "title": "AI-Powered Personalized Learning Platform",
+                    "category": "Software",
+                    "description": "Traditional education follows a one-size-fits-all approach, ignoring individual learning speeds and styles. Many students struggle because content is not adapted to their needs.",
+                    "background": "Develop an AI-based platform that analyzes student performance, identifies weak areas, and dynamically adjusts learning paths. The system should provide recommendations, quizzes, and progress analytics.",
+                    "expectedOutcome": "Improved student performance. Adaptive learning experience. Data-driven insights for teachers."
+                },
+                {
+                    "id": "IG26ED02",
+                    "title": "Automated Academic Credit Transfer System",
+                    "category": "Software",
+                    "description": "With the National Education Policy (NEP), student mobility between institutions is increasing, but credit transfer remains complex and manual.",
+                    "background": "Build a secure platform that verifies academic records and maps course equivalencies between universities to enable seamless credit transfer.",
+                    "expectedOutcome": "Faster credit verification. Reduced paperwork. Transparent academic mobility."
+                },
+                {
+                    "id": "IG26ED03",
+                    "title": "Smart Attendance Using Computer Vision",
+                    "category": "Software or Hardware",
+                    "description": "Manual attendance is time-consuming and prone to proxy entries.",
+                    "background": "Create a computer vision-based system that detects faces from classroom video feeds and marks attendance automatically while preventing impersonation.",
+                    "expectedOutcome": "Accurate attendance tracking. Reduced faculty workload. Prevention of proxy attendance."
+                },
+                {
+                    "id": "IG26ED04",
+                    "title": "AI Chatbot for Student Academic Guidance",
+                    "category": "Software",
+                    "description": "Students often lack access to timely academic and career guidance.",
+                    "background": "Develop an NLP-powered chatbot that answers queries related to courses, exams, career paths, and institutional processes.",
+                    "expectedOutcome": "24/7 student support. Reduced administrative burden. Better decision-making for students."
+                },
+                {
+                    "id": "IG26ED05",
+                    "title": "Unified Scholarship Discovery Platform",
+                    "category": "Software",
+                    "description": "Students struggle to find scholarships due to scattered information sources.",
+                    "background": "Build a centralized platform aggregating government and private scholarships with AI-based eligibility recommendations.",
+                    "expectedOutcome": "Increased scholarship accessibility. Higher application rates. Financial support for deserving students."
+                },
+                {
+                    "id": "IG26ED06",
+                    "title": "Early Dropout Prediction System",
+                    "category": "Software",
+                    "description": "Student dropouts impact both institutions and learners, often due to unnoticed academic or behavioral risks.",
+                    "background": "Design a predictive analytics system that uses academic records, attendance, and engagement data to identify at-risk students and suggest interventions.",
+                    "expectedOutcome": "Reduced dropout rates. Early support mechanisms. Better student retention."
+                },
+                {
+                    "id": "IG26ED07",
+                    "title": "Digital Repository for Vernacular Learning Content",
+                    "category": "Software",
+                    "description": "Many students learn better in regional languages, but quality educational resources are limited.",
+                    "background": "Create a platform hosting multilingual educational materials with translation features and accessibility tools.",
+                    "expectedOutcome": "Inclusive education. Improved comprehension. Wider reach of digital learning."
+                },
+                {
+                    "id": "IG26ED08",
+                    "title": "Skill Gap Analyzer for Students",
+                    "category": "Software",
+                    "description": "There is a mismatch between academic curricula and industry requirements, leading to employability issues.",
+                    "background": "Develop a system that compares student skills with market demands and recommends courses, certifications, and training.",
+                    "expectedOutcome": "Better job readiness. Personalized upskilling paths. Industry-aligned graduates."
+                },
+                {
+                    "id": "IG26ED09",
+                    "title": "Secure Digital Certificate Verification Using Blockchain",
+                    "category": "Software",
+                    "description": "Fake academic certificates are a growing problem.",
+                    "background": "Implement a blockchain-based verification system where institutions issue tamper-proof digital certificates that employers can instantly validate.",
+                    "expectedOutcome": "Fraud prevention. Faster verification. Increased trust in credentials."
+                },
+                {
+                    "id": "IG26ED10",
+                    "title": "Virtual Lab Platform for Remote Experiments",
+                    "category": "Software",
+                    "description": "Many institutions lack physical lab infrastructure, limiting practical learning.",
+                    "background": "Build a virtual simulation platform enabling students to perform experiments remotely with interactive models.",
+                    "expectedOutcome": "Accessible practical education. Cost-effective lab alternatives. Enhanced conceptual understanding."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "INDOMATION",
+            "slug": "indomation",
+            "problems": [
+                {
+                    "id": "IG26IA01",
+                    "title": "Smart Garbage Level Monitoring System",
+                    "category": "Hardware or Software",
+                    "description": "Garbage bins overflow due to fixed collection schedules without real-time monitoring. This leads to unhygienic environments, health risks, and inefficient waste management operations. There is a need for a smart system that enables data-driven waste collection instead of time-based collection.",
+                    "background": "Urban and rural areas follow fixed waste collection schedules that do not consider actual garbage fill levels. This results in overflowing bins, foul smell, environmental pollution, and unnecessary fuel consumption. A sensor-based automated system is required to monitor garbage levels in real time and optimize collection routes.",
+                    "expectedOutcome": "Real-time garbage level dashboard. Automatic threshold alerts. Route optimization system. Reduced fuel consumption. Improved hygiene and smart city management."
+                },
+                {
+                    "id": "IG26IA02",
+                    "title": "AI-Based Queue Management System",
+                    "category": "Software",
+                    "description": "Manual queue systems cause long waiting times and overcrowding in public spaces. Lack of real-time crowd monitoring leads to poor service efficiency and public dissatisfaction. An intelligent system is required to dynamically manage queues and reduce waiting delays",
+                    "background": "Hospitals, banks, and government offices rely on manual token systems that cannot predict crowd flow. This results in delays and inefficient counter management. An AI-powered system can automate token generation, estimate waiting time, and optimize service allocation.",
+                    "expectedOutcome": "Digital token system ,Real-time waiting time prediction ,AI-based crowd density analysis , Dynamic counter allocation , Reduced waiting time"
+                },
+                {
+                    "id": "IG26IA03",
+                    "title": "Voice-Controlled Factory Assistant",
+                    "category": "Hardware or Software",
+                    "description": "Factory workers lack hands-free access to real-time machine and production data. Manual monitoring slows down decision-making and reduces operational efficiency. An intelligent voice-enabled system is needed to provide instant access to critical factory information.",
+                    "background": "Workers depend on dashboards or manual inspections to check machine status and maintenance schedules. This consumes valuable time in industrial environments. A voice-controlled AI assistant integrated with IoT systems can improve productivity and operational transparency.",
+                    "expectedOutcome": "Voice-enabled AI assistant. Real-time machine updates. Production data access. Predictive maintenance alerts. Improved productivity."
+                },
+                {
+                    "id": "IG26IA04",
+                    "title": "Smart Worker Skill Matching & Task Allocation System",
+                    "category": "Software",
+                    "description": "Manual task allocation leads to poor skill utilization and inefficiency. Improper workforce distribution reduces productivity and increases operational errors. A smart system is required to match tasks with worker competencies effectively.",
+                    "background": "Industries assign tasks without analyzing worker skills, certifications, workload, or performance history. This results in reduced efficiency and imbalance in work allocation. An AI-based task allocation engine can optimize workforce management.",
+                    "expectedOutcome": "Digital worker skill database. AI-based task assignment. Balanced workload distribution. Increased productivity. Reduced operational errors."
+                },
+                {
+                    "id": "IG26IA05",
+                    "title": "Emotion & Fatigue Detection for Industrial Workers",
+                    "category": "Hardware or Software",
+                    "description": "Fatigue and stress increase workplace accidents in industries. Lack of real-time monitoring makes it difficult to identify early warning signs of worker exhaustion. An intelligent detection system is needed to enhance worker safety and prevent risks.",
+                    "background": "Industrial workers operate in physically demanding environments. Continuous stress and long working hours may lead to accidents. A wearable or vision-based monitoring system can detect fatigue and alert supervisors.",
+                    "expectedOutcome": "Real-time fatigue monitoring. Wearable or camera-based detection. Automated safety alerts. Reduced workplace accidents. Improved safety standards."
+                },
+                {
+                    "id": "IG26IA06",
+                    "title": "AI-Driven Predictive Maintenance System",
+                    "category": "Hardware + Software",
+                    "description": "Unexpected machinery failures cause production delays and financial losses. Traditional maintenance methods fail to detect early signs of equipment breakdown. An AI-powered predictive system is required to shift from reactive to proactive maintenance.",
+                    "background": "Industries rely on reactive or fixed-schedule maintenance approaches. This leads to unplanned downtime and high repair costs. An IoT-based AI system can monitor machine parameters and predict potential failures in advance.",
+                    "expectedOutcome": "Real-time machine health dashboard. AI-based failure alerts. Maintenance scheduling recommendations. Reduced downtime. Cost savings."
+                },
+                {
+                    "id": "IG26IA07",
+                    "title": "AI-Based Quality Inspection System",
+                    "category": "Hardware or Software",
+                    "description": "Manual product inspection is slow and error-prone. Human fatigue and high production speed reduce inspection accuracy. An automated AI-based vision system is needed to ensure consistent quality control.",
+                    "background": "Manufacturing industries depend on manual inspection processes that lack consistency. A computer vision system can automatically detect defects in real time and separate faulty products from the production line.",
+                    "expectedOutcome": "AI defect detection model. Live camera integration. Automatic defect flagging. Reduced wastage. Improved product quality."
+                },
+                {
+                    "id": "IG26IA08",
+                    "title": "Smart Energy Monitoring for Industries",
+                    "category": "Hardware or Software",
+                    "description": "Industries lack real-time energy usage insights, leading to wastage. Unmonitored consumption increases operational costs and reduces sustainability. An intelligent monitoring platform is needed to optimize energy utilization.",
+                    "background": "Industrial facilities consume large amounts of electricity without detailed analysis. A smart monitoring system can track usage patterns and provide optimization recommendations to reduce costs.",
+                    "expectedOutcome": "Energy consumption dashboard. Peak usage analysis. Optimization insights. Cost reduction reports. Improved sustainability."
+                },
+                {
+                    "id": "IG26IA09",
+                    "title": "Industrial Safety Monitoring System",
+                    "category": "Hardware or Software",
+                    "description": "Industrial workers are exposed to hazardous environmental conditions. Delayed detection of gas leaks or abnormal temperatures can cause severe accidents. A real-time safety monitoring system is required to prevent emergencies.",
+                    "background": "Factories involve exposure to harmful gases, fire hazards, and unsafe conditions. An IoT-based monitoring system can detect abnormal environmental parameters and send instant alerts.",
+                    "expectedOutcome": "Real-time hazard detection. Emergency alert system. Worker safety tracking. Reduced workplace accidents. Improved compliance."
+                },
+                {
+                    "id": "IG26IA10",
+                    "title": "Smart Biometric/RFID-Based Attendance Management System",
+                    "category": "Hardware or Software",
+                    "description": "Manual attendance systems are inefficient and prone to fraud. Proxy attendance and inaccurate records affect payroll management. An automated and secure system is needed to ensure accurate workforce tracking.",
+                    "background": "Industries face payroll errors and time theft due to manual attendance processes. A biometric or RFID-based automated system can securely log attendance and integrate with payroll systems.",
+                    "expectedOutcome": "Secure attendance logging. Real-time entry/exit tracking. Payroll integration. Reduced manual errors. Improved workforce management."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "REVFINTECH",
+            "slug": "revfintech",
+            "problems": [
+                {
+                    "id": "IG26RF01",
+                    "title": "Credit Risk Prediction Using Alternative Data",
+                    "category": "Software",
+                    "description": "Traditional credit scoring systems depend on bank records and loan repayment history. Many individuals, especially students and informal sector workers, lack formal credit records but actively use digital payment platforms. This solution should analyze mobile transactions, utility bill payments, and digital spending patterns to generate a reliable credit score using machine learning techniques.",
+                    "background": "Develop an AI-based credit scoring model using alternative financial data for individuals without formal credit history.",
+                    "expectedOutcome": "ML credit scoring model with evaluation metrics. Risk score dashboard. User credit profile interface. Web/mobile prototype."
+                },
+                {
+                    "id": "IG26RF02",
+                    "title": "Real-Time Fraud Detection in Digital Transactions",
+                    "category": "Software",
+                    "description": "With the growth of digital payments, fraud cases are increasing. Existing systems often detect fraud after the transaction is completed. The system should analyze transaction streams, identify anomalies, calculate fraud probability, and trigger immediate alerts to prevent financial loss.",
+                    "background": "Design a real-time AI system to detect fraudulent digital transactions instantly.",
+                    "expectedOutcome": "Fraud detection ML model. Real-time alert mechanism. Admin monitoring dashboard. Fraud probability scoring."
+                },
+                {
+                    "id": "IG26RF03",
+                    "title": "Smart Loan Recommendation System",
+                    "category": "Software",
+                    "description": "Users often choose inappropriate loan schemes, leading to financial stress and defaults. Financial institutions also face increased risk due to improper loan matching. The system should analyze income, credit score, spending patterns, and repayment capacity to recommend optimal loan products.",
+                    "background": "Build an intelligent system that recommends suitable loan products based on user financial behavior.",
+                    "expectedOutcome": "Loan matching algorithm. Personalized recommendation dashboard. Risk analysis report. UI prototype."
+                },
+                {
+                    "id": "IG26RF04",
+                    "title": "Digital Wallet Rewards & Loyalty System",
+                    "category": "Software",
+                    "description": "Static reward systems fail to retain customers effectively. Wallet providers need data-driven reward optimization models to increase engagement and revenue. The system should manage cashback, referral incentives, merchant integration, and reward tracking.",
+                    "background": "Create a dynamic loyalty and rewards engine for digital wallet platforms.",
+                    "expectedOutcome": "Reward calculation engine. Points & cashback management system. Merchant integration model. Rewards dashboard."
+                },
+                {
+                    "id": "IG26RF05",
+                    "title": "Multilingual FinTech Support Bot",
+                    "category": "Software",
+                    "description": "Language barriers prevent many users from understanding banking services and digital payments. The chatbot should provide multilingual support, financial product explanations, FAQ integration, and conversational assistance.",
+                    "background": "Develop an AI-powered chatbot supporting multiple regional languages for financial assistance.",
+                    "expectedOutcome": "NLP chatbot. Multi-language support. Knowledge base integration. Deployment prototype."
+                },
+                {
+                    "id": "IG26RF06",
+                    "title": "Student-Focused Buy Now Pay Later (BNPL) Platform",
+                    "category": "Software",
+                    "description": "Students face short-term financial shortages but lack access to affordable credit. Existing BNPL platforms do not consider academic performance or guardian visibility in risk assessment. The system should use academic scores, spending limits, and ML-based risk analysis to offer low-interest micro-credit.",
+                    "background": "Develop a student-centric BNPL platform with academic-based risk profiling.",
+                    "expectedOutcome": "Student credit risk model. Spending limit control system. Guardian monitoring interface. BNPL platform prototype."
+                },
+                {
+                    "id": "IG26RF07",
+                    "title": "Smart Fee Management & Automated Revenue Forecasting System",
+                    "category": "Software",
+                    "description": "Institutions struggle with irregular fee payments and inaccurate revenue forecasting. Manual systems lack predictive analytics. The solution should track payments, analyze historical trends, and forecast future revenue using machine learning models.",
+                    "background": "Design an AI-powered fee management and revenue prediction system for educational institutions.",
+                    "expectedOutcome": "Fee tracking system. Revenue prediction ML model. Admin dashboard. Automated reminder system."
+                },
+                {
+                    "id": "IG26RF08",
+                    "title": "Gamified Savings App for Students",
+                    "category": "Software",
+                    "description": "Traditional finance apps lack engagement, resulting in poor saving habits among youth. The app should include saving missions, levels, rewards, leaderboards, and AI-generated personalized saving goals.",
+                    "background": "Develop a gamified savings application to encourage financial discipline among students.",
+                    "expectedOutcome": "Gamified savings engine. Goal recommendation algorithm. Reward system. Mobile application prototype."
+                },
+                {
+                    "id": "IG26RF09",
+                    "title": "Subscription Management Suite for SMEs",
+                    "category": "Software",
+                    "description": "SMEs face challenges in managing recurring billing, renewals, and customer churn. Manual systems cause revenue leakages. The platform should automate billing, track subscriptions, predict churn using AI, and provide revenue analytics dashboards.",
+                    "background": "Create a SaaS-based subscription management and churn prediction system for small businesses.",
+                    "expectedOutcome": "Automated billing system. Subscription lifecycle management. Churn prediction model. Revenue analytics dashboard."
+                },
+                {
+                    "id": "IG26RF10",
+                    "title": "Predictive EMI Miss Detection System",
+                    "category": "Software",
+                    "description": "Current banking systems detect missed payments only after default occurs. A predictive system can reduce losses by identifying high-risk users early. The model should analyze spending patterns, transaction behavior, income fluctuations, and repayment history to generate early-warning alerts.",
+                    "background": "Develop an AI model that predicts the probability of a borrower missing their upcoming EMI payment.",
+                    "expectedOutcome": "EMI default prediction model. Risk probability scoring. Early alert notification system. Admin dashboard."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "SECURA",
+            "slug": "secura",
+            "problems": [
+                {
+                    "id": "IG26CS01",
+                    "title": "AI-Based Pre-Encryption Ransomware Detection System",
+                    "category": "Software",
+                    "description": "Ransomware attacks are rapidly increasing across enterprises, educational institutions, and government organizations. Traditional antivirus systems detect threats only after encryption begins, causing major data loss and operational disruption. A proactive behavioral-based detection system is required to identify ransomware activities at an early stage and enable automated containment.",
+                    "background": "Design and develop an AI-driven system that detects ransomware behavior before encryption starts by analyzing abnormal file I/O operations, sudden entropy shifts, unauthorized privilege escalation attempts, and suspicious process behaviors.",
+                    "expectedOutcome": "Behavioral monitoring agent prototype. Risk scoring engine with real-time dashboard. Alert notification system. Demonstration of early detection using simulated attack patterns."
+                },
+                {
+                    "id": "IG26CS02",
+                    "title": "Encrypted Traffic Threat Detection without Decryption",
+                    "category": "Software",
+                    "description": "With most internet traffic encrypted using HTTPS/TLS, attackers can hide malicious communications inside encrypted channels. Organizations need solutions that detect threats without decrypting traffic or violating privacy regulations.",
+                    "background": "Develop a system that identifies malicious activity within encrypted traffic using traffic flow analysis such as packet size distribution, session duration, TLS fingerprinting, and behavioral anomaly detection.",
+                    "expectedOutcome": "Encrypted traffic flow analyzer. Anomaly detection model. Visualization dashboard of suspicious flows. Demonstration using simulated encrypted malware traffic."
+                },
+                {
+                    "id": "IG26CS03",
+                    "title": "Intelligent Digital Forensics Triage & Evidence Prioritization Tool",
+                    "category": "Software",
+                    "description": "Cyber investigations involve analyzing large volumes of logs, emails, images, and chat records. Manual analysis delays investigations. An automated AI-driven prioritization system is needed to quickly identify high-value evidence.",
+                    "background": "Create an AI-powered forensic triage system that ingests digital evidence and prioritizes artifacts based on relevance scoring using NLP techniques, metadata analysis, and behavioral patterns.",
+                    "expectedOutcome": "Digital evidence ingestion system. AI-based artifact relevance scoring. Forensic dashboard interface. Demonstration of automated prioritization."
+                },
+                {
+                    "id": "IG26CS04",
+                    "title": "IoT Botnet Early Recruitment Detection Framework",
+                    "category": "Software",
+                    "description": "IoT devices in smart environments are often poorly secured and vulnerable to botnet recruitment, leading to large-scale DDoS attacks. Early detection mechanisms are required to prevent such large-scale compromises.",
+                    "background": "Develop a lightweight monitoring framework that detects early signs of IoT devices being recruited into botnets by analyzing abnormal DNS queries, outbound traffic patterns, and communication anomalies.",
+                    "expectedOutcome": "IoT traffic monitoring prototype. Botnet risk classification engine. Real-time alert dashboard. Simulation of compromised IoT device detection."
+                },
+                {
+                    "id": "IG26CS05",
+                    "title": "AI-Based Multi-Stage Attack Log Correlation Engine",
+                    "category": "Software",
+                    "description": "Advanced cyberattacks occur in multiple stages across different systems, making them difficult to detect using isolated log analysis tools. A centralized AI-driven correlation engine is required to identify complete attack paths.",
+                    "background": "Design and develop an AI-based log correlation engine that collects logs from multiple systems, identifies multi-stage attack chains, and applies graph-based modeling with anomaly detection.",
+                    "expectedOutcome": "Centralized log ingestion system. Attack chain correlation engine. Visual attack path representation. Demonstration of multi-stage attack detection."
+                },
+                {
+                    "id": "IG26CS06",
+                    "title": "Federated Learning-Based Privacy-Preserving Biometric Authentication",
+                    "category": "Software",
+                    "description": "Centralized biometric storage increases the risk of large-scale data breaches. With growing use of biometrics in banking and enterprise systems, privacy-preserving decentralized authentication mechanisms are essential.",
+                    "background": "Develop a biometric authentication system using Federated Learning where user biometric data remains on local devices and global models are updated without sharing raw biometric data.",
+                    "expectedOutcome": "Federated biometric authentication prototype. Secure aggregation model demonstration. Privacy-preserving training workflow. Authentication accuracy comparison."
+                },
+                {
+                    "id": "IG26CS07",
+                    "title": "AI-Driven Supply Chain Cyber Risk Dependency Analyzer",
+                    "category": "Software",
+                    "description": "Organizations rely heavily on third-party open-source libraries, making them vulnerable to supply chain attacks such as dependency poisoning and malicious updates. A proactive dependency risk analysis system is required.",
+                    "background": "Create a system that scans software projects, maps dependency trees, analyzes vulnerabilities, and predicts cyber risk exposure using ML-based risk scoring.",
+                    "expectedOutcome": "Dependency graph visualization. Vulnerability prediction engine. Risk score dashboard. Simulated attack exposure report."
+                },
+                {
+                    "id": "IG26CS08",
+                    "title": "Adaptive Zero-Trust Access Control System with Behavioral Trust Scoring",
+                    "category": "Software",
+                    "description": "Traditional security models assume internal users are trusted. Zero-Trust Architecture requires continuous verification of identity and behavior to enhance enterprise security.",
+                    "background": "Design a dynamic access control system that assigns real-time trust scores to users based on login patterns, device fingerprinting, geolocation anomalies, and usage behavior.",
+                    "expectedOutcome": "Dynamic trust scoring engine. Adaptive access permission module. Zero-trust simulation environment. Visualization of trust fluctuation."
+                },
+                {
+                    "id": "IG26CS09",
+                    "title": "Deepfake Detection & Authenticity Verification System for Digital Evidence",
+                    "category": "Software",
+                    "description": "Deepfake content is increasingly used for fraud and misinformation. Law enforcement agencies require reliable AI tools to verify the authenticity of digital media evidence.",
+                    "background": "Develop an AI-based system that detects deepfake video and audio using micro-expression analysis, spectral inconsistencies, and GAN artifact detection techniques.",
+                    "expectedOutcome": "Deepfake detection model. Confidence scoring mechanism. Forensic authenticity dashboard. Real-time detection demo."
+                },
+                {
+                    "id": "IG26CS10",
+                    "title": "Encrypted Cloud Storage Misuse & Data Exfiltration Detection System",
+                    "category": "Software",
+                    "description": "Attackers increasingly misuse legitimate cloud services for covert data exfiltration. AI-driven behavioral monitoring is required to detect insider threats and abnormal cloud activities.",
+                    "background": "Build a system that detects abnormal cloud usage patterns indicating possible data exfiltration by analyzing upload frequency, file size anomalies, and behavioral deviations.",
+                    "expectedOutcome": "Cloud activity analyzer. Anomaly detection engine. Risk alert mechanism. Simulated insider data exfiltration detection."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "SOCIALSPARK",
+            "slug": "socialspark",
+            "problems": [
+                {
+                    "id": "IG26SW01",
+                    "title": "Smart Community Health Monitoring & Early Warning System",
+                    "category": "Software",
+                    "background": "Develop a real-time health monitoring platform to detect early signs of water-borne disease outbreaks in rural areas.",
+                    "description": "Rural areas often face delayed detection of disease outbreaks due to lack of real-time data integration between local clinics, PHCs, and environmental monitoring systems. The solution should aggregate health and environmental data, apply predictive analytics, and generate timely alerts for health workers and district authorities to prevent large-scale disease spread.",
+                    "expectedOutcome": "Cloud-based outbreak detection dashboard , Predictive analytics engine , SMS/mobile alert system , District-level data visualization module"
+
+                },
+                {
+                    "id": "IG26SW02",
+                    "title": " Rural Water Quality Testing & Alert System",
+                    "category": "Hardware or Software",
+                    "background": "Design a low-cost IoT-enabled system for continuous monitoring of rural water sources and real-time contamination alerts.",
+                    "description": "Contaminated water sources in rural areas cause severe health issues due to lack of continuous monitoring and timely alerts. The proposed system should use IoT sensors to detect water quality parameters and automatically notify residents and authorities when safety thresholds are exceeded.",
+                    "expectedOutcome": "IoT-based water quality sensor prototype , Real-time contamination detection system , Mobile alert mechanism , Water quality monitoring dashboard"
+
+                },
+                {
+                    "id": "IG26SW03",
+                    "title": "Bioremediation of Polluted Water Bodies Using Engineered Microorganisms",
+                    "category": "Hardware or Software",
+                    "background": "Design an eco-friendly microbial solution to treat polluted lakes and rivers in urban and rural communities.",
+                    "description": "Industrial discharge and domestic waste have severely polluted many water bodies, affecting aquatic life and public health. Conventional chemical treatments are costly and environmentally harmful. The project should focus on isolating or engineering microbial strains capable of degrading pollutants, heavy metals, and organic waste efficiently and safely.",
+                    "expectedOutcome": "Identified/engineered microbial strain , Lab-scale pollutant degradation data , Pilot-scale treatment model , Environmental safety and compliance report"
+
+                },
+                {
+                    "id": "IG26SW04",
+                    "title": "Smart Crop Advisory for Small Farmers",
+                    "category": "Software",
+                    "background": "Build an AI-powered crop advisory system that delivers personalized recommendations and pest alerts.",
+                    "description": "Small farmers face crop losses due to unpredictable weather, pest attacks, and lack of personalized advisory services. The system should provide crop recommendations, pest detection alerts, and localized weather forecasts in regional languages to improve productivity.",
+                    "expectedOutcome": "AI crop prediction model , Pest detection & alert engine , Weather API integration , Multi-language advisory interface"
+                },
+                {
+                    "id": "IG26SW05",
+                    "title": "Digital Mental Health Support Platform",
+                    "category": "Software",
+                    "background": "Develop a secure digital platform offering AI-based emotional support and crisis assistance.",
+                    "description": "Mental health support is often inaccessible or stigmatized, especially among students and rural populations. The platform should provide anonymous chatbot-based emotional support, self-help resources, and integration with emergency crisis helplines while ensuring user privacy.",
+                    "expectedOutcome": "Anonymous AI chatbot , Crisis helpline integration,Self-help resource modules , Secure user privacy framework"
+
+                },
+                {
+                    "id": "IG26SW06",
+                    "title": "Crowdsourced Civic Issue Reporting System",
+                    "category": "Software",
+                    "background": "Create a geo-tagged platform for transparent civic issue reporting and resolution tracking.",
+                    "description": "Citizens face delays in resolving civic issues due to lack of transparency and tracking mechanisms. The system should allow users to submit complaints, track progress, and enable authorities to manage and resolve issues efficiently.",
+                    "expectedOutcome": "Geo-tagged issue reporting system , Status tracking dashboard , Admin resolution panel,Public transparency analytics module"
+
+                },
+                {
+                    "id": "IG26SW07",
+                    "title": "Smart Waste Segregation & Recycling System",
+                    "category": "Software or Hardware",
+                    "background": "Design an automated system to monitor waste segregation and optimize collection routes.",
+                    "description": "Improper waste segregation and inefficient collection routes increase pollution and operational costs. The solution should include smart bins for segregation monitoring and real-time analytics for route optimization.",
+                    "expectedOutcome": "Smart bin monitoring prototype,Waste classification mechanism,Route optimization algorithm,Citizen awareness application"
+
+                },
+                {
+                    "id": "IG26SW08",
+                    "title": "Development of Affordable Point-of-Care Diagnostic Kit for Anemia",
+                    "category": "Hardware",
+                    "background": "Create a cost-effective, portable diagnostic kit for rapid hemoglobin level estimation in rural populations.",
+                    "description": "Anemia remains a major public health issue, especially among women and children in rural areas. Laboratory-based blood tests are often inaccessible. There is a need for a simple, minimally invasive, and affordable diagnostic tool that provides accurate hemoglobin readings at the point of care.",
+                    "expectedOutcome": "Portable diagnostic device prototype , Calibration and validation results , User-friendly interface , Cost analysis for mass production"
+                },
+                {
+                    "id": "IG26SW09",
+                    "title": "Public Transport Tracker for Small Cities",
+                    "category": "Software",
+                    "background": "Build a GPS-enabled system providing real-time public transport tracking and ETA predictions.",
+                    "description": "Small towns lack reliable real-time transport tracking systems, causing commuter inconvenience. The system should provide live vehicle tracking, estimated arrival times, and service notifications through a user-friendly interface.",
+                    "expectedOutcome": "GPS tracking integration , ETA prediction model , Passenger mobile notification system , Transport monitoring dashboard"
+
+                },
+                {
+                    "id": "IG26SW10",
+                    "title": "Digital Health Records for Migrant Workers",
+                    "category": "Software",
+                    "background": "Design a secure, portable cloud-based health record system for migrant workers.",
+                    "description": "Migrant workers often lose access to medical records when moving across states, leading to gaps in healthcare continuity. The system should enable secure access, updates, and sharing of medical records through multi-language support and QR-based identification.",
+                    "expectedOutcome": "Secure cloud health profile system , Multi-language user interface , QR-based health record access , Data privacy & encryption framework"
+                }
+            ]
+        }
+    ],
+    "staffInnovation": {
+        "name": "Staff Innovation Track",
+        "slug": "staff",
+        "problems": [
+            {
+                "id": "IG26ST01",
+                "title": "Smart Micro-ATM & Offline Payment Enabler",
+                "category": "Hardware + Software",
+                "background": "Design a portable micro-ATM device that enables secure offline digital transactions in low-connectivity regions.",
+                "description": "Connectivity gaps in semi-urban and rural areas prevent consistent access to digital financial services. The solution should include biometric or secure user authentication, encrypted offline transaction storage, and automatic synchronization when network access is restored",
+                "expectedOutcome": "Reliable low-connectivity payments , Secure transaction logging , Increased financial reach"
+            },
+            {
+                "id": "IG26ST02",
+                "title": "Industrial Worker Safety Wearable",
+                "category": "Hardware + Software",
+                "background": "Develop a smart wearable device to monitor worker health and environmental risks in industrial settings.",
+                "description": "Industrial accidents often occur due to the absence of real-time monitoring. The system should track parameters such as gas levels, temperature, fatigue indicators, and fall detection, providing instant alerts and centralized monitoring dashboards.",
+                "expectedOutcome": "Instant hazard notification , Reduced accidents , Safety analytics dashboard"
+            },
+            {
+                "id": "IG26ST03",
+                "title": "Smart Attendance & Engagement Tracker",
+                "category": "Hardware + Software",
+                "background": "Create an intelligent attendance and classroom engagement tracking system for educational institutions.",
+                "description": "Traditional attendance systems fail to measure student engagement. The proposed solution should integrate RFID or facial recognition systems with analytics to track attendance, attentiveness, and interaction metrics.",
+                "expectedOutcome": "Automated attendance records , Engagement insights , Parent/faculty reporting"
+            },
+            {
+                "id": "IG26ST04",
+                "title": "AI Soil Health & Nutrient Scanner",
+                "category": "Hardware + Software",
+                "description": "Farmers often rely on guesswork for fertilizer application, leading to suboptimal yields. The solution should analyze soil nutrients in-field and integrate with a mobile app to deliver accurate input recommendations.",
+                "background": "Develop a portable soil analysis device that provides AI-based crop and fertilizer recommendations.",
+                "expectedOutcome": "Accurate nutrient advice , Lower input cost , Better yield planning"
+            },
+            {
+                "id": "IG26ST05",
+                "title": "Smart Public Waste Segregation Unit",
+                "category": "Hardware + Software",
+                "description": "Improper waste segregation reduces recycling efficiency. The proposed system should use sensors or computer vision to classify waste and guide users while collecting data for municipal monitoring.",
+                "background": "Design an intelligent waste bin capable of automatically identifying and segregating waste types.",
+                "expectedOutcome": "Higher recycling rates , Cleanliness monitoring , Data for municipalities"
+            },
+            {
+                "id": "IG26ST06",
+                "title": "Portable Intrusion Detection Node",
+                "category": "Hardware + Software",
+                "description": "Small businesses and temporary setups lack cost-effective security systems. The solution should integrate motion sensing, edge AI processing, and instant mobile alerts with event logging.",
+                "background": "Build a compact and affordable intrusion detection system for temporary or small-scale establishments.",
+                "expectedOutcome": "Low-cost protection , Real-time notification , Event logging"
+            },
+            {
+                "id": "IG26ST07",
+                "title": "Immersive Remote Lab Kit",
+                "category": "Hardware + Software",
+                "description": "Students without access to physical labs miss hands-on experience. The system should allow remote control of experiments, real-time data streaming, and AI-based performance guidance.",
+                "background": "Develop connected lab kits that enable remote experimentation and AI-guided learning.",
+                "expectedOutcome": "Practical exposure from anywhere , Experiment tracking , Performance evaluation"
+            },
+            {
+                "id": "IG26ST08",
+                "title": "Smart Cold Storage Monitor",
+                "category": "Hardware + Software",
+                "description": "Post-harvest losses often occur due to poor storage conditions. The proposed system should monitor environmental parameters and provide predictive alerts to prevent spoilage.",
+                "background": "Create an IoT-based monitoring system for temperature and humidity control in cold storage units.",
+                "expectedOutcome": "Reduced waste , Quality assurance , Supply chain visibility"
+            },
+            {
+                "id": "IG26ST09",
+                "title": "Women & Child Safety Beacon Network",
+                "category": "Hardware + Software",
+                "description": "Delayed emergency response times increase risk in public spaces. The solution should transmit real-time location data and trigger alerts to authorities and nearby responders.",
+                "background": "Design an emergency alert network using wearable or public panic devices for faster response.",
+                "expectedOutcome": "Faster assistance , Location intelligence , Safer public spaces"
+            },
+            {
+                "id": "IG26ST10",
+                "title": "AI-Enabled Smart Street Vendor Assistant",
+                "category": "Hardware + Software",
+                "description": "Small vendors often lack digital tools for billing, sales tracking, and financial documentation. The system should support digital payments, inventory sensing, demand prediction, and data generation for loan eligibility.",
+                "background": "Develop a low-cost smart terminal to assist street vendors with payments, inventory management, and financial analytics.",
+                "expectedOutcome": "Digital inclusion , Better income planning , Loan eligibility records"
+            }
+        ]
+    }
+}
