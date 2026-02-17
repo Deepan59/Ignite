@@ -13,7 +13,7 @@ const Footer = () => {
                         Organized by CSE & <span className="whitespace-nowrap">CSE (AI&ML)</span>
                     </p>
                     <p className="text-gray-500 font-poppins text-sm">
-                        Contact: <a href="mailto:ignite2k26@example.com" className="text-[var(--color-neon-blue)] hover:underline">
+                        Contact: <a href="tel:+91 9361224959" className="text-[var(--color-neon-blue)] hover:underline">
                             R.Munish Kumar : +91 9361224959   |  S.Sanofer Nisha : +91 8667352613
                         </a>
                     </p>
