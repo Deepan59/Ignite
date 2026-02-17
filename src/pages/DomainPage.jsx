@@ -49,7 +49,7 @@ const DomainPage = () => {
         <div className="min-h-screen">
 
             {/* Header */}
-            <div className="pt-24 pb-12 px-4 bg-gradient-to-br from-blue-900 via-purple-900 to-violet-900">
+            <div className="pt-12 pb-12 px-4 bg-gradient-to-br from-blue-900 via-purple-900 to-violet-900">
                 <div className="max-w-7xl mx-auto">
                     <Link
                         to="/"

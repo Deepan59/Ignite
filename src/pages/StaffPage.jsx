@@ -30,7 +30,7 @@ const StaffPage = () => {
         <div className="min-h-screen">
 
             {/* Header */}
-            <div className="pt-24 pb-12 px-4 bg-gradient-to-br from-yellow-900 via-orange-900 to-amber-900">
+            <div className="pt-12 pb-12 px-4 bg-gradient-to-br from-yellow-900 via-orange-900 to-amber-900">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center">
                         <Link

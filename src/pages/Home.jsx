@@ -58,14 +58,14 @@ const Home = () => {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative h-screen flex items-center justify-center overflow-hidden">
+            <section className="relative h-screen flex items-start justify-center overflow-hidden pt-8">
                 {/* Background with gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-violet-900">
                     <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMSkiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-20"></div>
                 </div>
 
                 {/* Content */}
-                <div className="relative z-10 text-center px-4 fade-in pt-32 pb-20 md:py-0">
+                <div className="relative z-10 text-center px-4 fade-in pb-20 md:py-0">
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-6 md:mb-8">
                         <img src="/logo.png" alt="Ignite Logo" className="w-20 h-20 md:w-40 md:h-40 animate-bounce-slow glow-logo" />
                         <h1 className="text-xl md:text-7xl font-orbitron font-black glow-text leading-tight">
