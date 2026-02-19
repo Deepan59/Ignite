@@ -115,6 +115,25 @@ const Home = () => {
                         Organizing <span className="glow-text">Team</span>
                     </h2>
 
+                    {/* Chief Patrons */}
+                    <div className="mb-12">
+                        <p className="text-center text-xs md:text-sm font-orbitron font-bold uppercase tracking-[0.3em] text-[var(--color-neon-purple)] mb-6 opacity-80">Chief Patrons</p>
+                        <div className="flex flex-wrap justify-center gap-12 px-4">
+                            <div className="text-center group">
+                                <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Ln.Dr.M.Stalin Arockiaraj</p>
+                                <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Chairman</p>
+                            </div>
+                            <div className="text-center group">
+                                <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Ln.Dr.J.Bridget Nirmala</p>
+                                <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">CEO</p>
+                            </div>
+                            <div className="text-center group">
+                                <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Er.S.Cergius Anto Michael</p>
+                                <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Vice Chairman</p>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Leadership Names */}
                     <div className="flex flex-wrap justify-center gap-12 mb-16 px-4">
                         <div className="text-center group">
@@ -124,12 +143,10 @@ const Home = () => {
                         <div className="text-center group">
                             <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.A.Thamarai Muthumani</p>
                             <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">HOD of CSE and CSE (Ai&ML)</p>
-
                         </div>
                         <div className="text-center group">
                             <p className="text-xl md:text-2xl font-poppins font-bold text-white glow-text-subtle">Mrs.L.Devi</p>
                             <p className="text-[var(--color-neon-blue)] font-orbitron text-xs md:text-sm uppercase tracking-[0.2em] mb-2 opacity-80 group-hover:opacity-100 transition-opacity">Program Coordinator</p>
-
                         </div>
                     </div>
 
